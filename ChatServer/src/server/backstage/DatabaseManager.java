@@ -24,7 +24,7 @@ public class DatabaseManager {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			//得到连接
-			ct = DriverManager.getConnection("jdbc:mysql://localhost:3306/ChatRoomDao?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimeZone=GMT%2B8","root","wang@00752");
+			ct = DriverManager.getConnection("jdbc:mysql://localhost:3306/ChatRoomDao?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimeZone=GMT%2B8","root","password");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
